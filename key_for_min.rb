@@ -12,6 +12,6 @@ def key_for_min_value(name_hash)
         lowest_key = key
       end
   end
-return key
+lowest_key
 #sections.min { |a,b| a[:apr] <=> b[:apr] }
 end
