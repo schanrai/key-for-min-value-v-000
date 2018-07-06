@@ -10,8 +10,9 @@ def key_for_min_value(name_hash)
       if lowest_key == nil || value < lowest_value
         lowest_value = value
         lowest_key = key
-        binding.pry
+
       end
+    binding.pry
   end
 lowest_key
 #sections.min { |a,b| a[:apr] <=> b[:apr] }
