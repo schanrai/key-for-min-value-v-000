@@ -5,8 +5,8 @@ name_hash = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
   lowest = ""
-   name_hash.find do |key, value|  
-    store << value 
+    name_hash.find do |key, value|  
+    store << value
   end
 #sections.min { |a,b| a[:apr] <=> b[:apr] }
 end
